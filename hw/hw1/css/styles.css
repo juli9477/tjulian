@@ -1,24 +1,24 @@
 .home{
-    padding:0px;
-    display:block;
-    margin:0 auto;
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
     text-align: center;
-    width:100%;
-    height:70%;
-     transform:translate(0px,-22px);
+    width: 100%;
+    height: 70%;
+    transform: translate(0px, -22px);
 }
 
-.history{
-     padding:0px;
-    display:block;
-    margin:0 auto;
+.history {
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
     text-align: center;
-    width:100%;
-    height:70%;
-     transform:translate(0px,-22px);
+    width: 100%;
+    height: 70%;
+    transform: translate(0px, -22px);
 }
 
-nav{
+nav {
     list-style: none;
     text-align: right;
     padding: 30px 30px 30px 30px;
@@ -26,73 +26,179 @@ nav{
 }
 
 
-nav a{
-color:white;
-text-decoration: none;
+nav a {
+    color: white;
+    text-decoration: none;
 }
 
-.logo{
-    float:left;
+nav a:hover {
+    border-bottom: 1px white solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+.logo {
+    float: left;
     padding-left: 20px;
 }
 
-body{
-    margin:0;
-    padding:0;
-    height:100%;
-    width:100%;
-    
-}
-html{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     height: 100%;
-    width:100%;
-}
-#word1{
-    width:350px;
-    float:left;
-    padding:55px;
+    width: 100%;
+
 }
 
-#word2{
-    width:350px;
-    float:left;
-     padding:55px;
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
 }
 
-#word3{
-    width:350px;
-    float:left;
-     padding:55px
+#word1 {
+    width: 350px;
+    float: left;
+    padding: 55px;
 }
 
-#logo{
- height:30px;
- width:30px;
+#word2 {
+    width: 350px;
+    float: left;
+    padding: 55px;
 }
 
-.logo{
-    height:65px;
-    width:65px;
-    transform:translate(0px,-13px);
+#word3 {
+    width: 350px;
+    float: left;
+    padding: 55px
 }
 
-#paragraphs{
+#word4 {
+    width: 300px;
+    float: left;
+    padding: 30px;
+    transform: translate(-10px, 22px);
+
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+}
+
+.logo {
+    height: 65px;
+    width: 65px;
+    transform: translate(0px, -13px);
+}
+
+#paragraphs {
     margin-left: 150px;
 }
 
-#hist{
-    width:300px;
+#hist {
+    width: 300px;
     margin-left: 150px;
 }
-.tools{
-    display:inline-block;
-    position: absolute;
-    padding:40px;
+
+.flux {
+    display: inline-block;
 }
 
-.flux{
-     display:inline-block;
-     position: absolute;
+.sketch {
+    width: 340px;
+    height: 485px;
+}
+
+.axure {
+    width: 340px;
+    height: 485px;
+}
+
+.mockplus {
+    width: 340px;
+    height: 485px;
+}
+
+.adobe {
+    width: 330px;
+    height: 485px;
+}
+
+.ex {
+    height: 500px;
+    width: 330px;
+}
+
+h3 {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0.5px 0.5px #000000;
+    font-variant: small-caps;
+
+}
+
+#word1 a:hover {
+    border-bottom: 1px white solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#word2 a:hover {
+    border-bottom: 1px white solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#word3 a:hover {
+    border-bottom: 1px white solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#word4 a:hover {
+    border-bottom: 1px white solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#word1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#word2 a {
+    text-decoration: none;
+    color: black;
+}
+
+#word3 a {
+    text-decoration: none;
+    color: black;
+}
+
+#word4 a {
+    text-decoration: none;
+    color: black;
+}
+
+#bib {
+    padding: 50px;
+}
+
+#more {
+    text-align: right;
+}
+cite{
+    padding:50px;
+}
+cite a{
+    text-decoration: none;
+}
+form{
+    transform: translate(0px, 640px);
+   
 }

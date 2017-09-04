@@ -1,109 +1,118 @@
-body{
-    background-color:black;
-    color:gray;
+body {
+    background-color: black;
+    color: gray;
 }
-header, main, nav, footer{
-    text-align:center;
+
+header,
+main,
+nav,
+footer {
+    text-align: center;
 }
-main{
-    margin-left:300px;
-    
+
+main {
+    margin-left: 300px;
+
 }
-nav a{
-    padding:15px;
-    padding-bottom:4px;
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
     font-size: 1.8em;
-    text-decoration:none;
-    color:white;
+    text-decoration: none;
+    color: white;
 }
 
-nav a:hover{
-    border-bottom:2px orange solid;
-    font-size:2em;
-    transition:.9s;
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
 }
 
-figure, div{
-    float:left;
+figure,
+div {
+    float: left;
 }
 
-#me, #welcomeText{
-    float:left;
+#me,
+#welcomeText {
+    float: left;
 }
 
-table{
-    margin:0px auto;
+table {
+    margin: 0px auto;
 }
 
-td{
+td {
     padding-right: 10px;
     font-size: 1.3em;
 }
 
-td strong{
-    color:orange
+td strong {
+    color: orange
 }
 
-#table-header{
-    background-color:#351a00;
+#table-header {
+    background-color: #351a00;
 }
 
-.table-row{
+.table-row {
     background-color: #753900;
 }
 
-ul{
-    text-align:left;
+ul {
+    text-align: left;
     padding-left: 200px;
 }
 
-.hobby{
-    color:yellow;
+.hobby {
+    color: yellow;
 }
 
-h1{
-    font-family:'Pacifico', cursive;
-    font-size:4em;
-    margin-bottom:0px;
-    color:white;
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+    color: white;
 }
 
-#welcomeText{
+#welcomeText {
     text-align: left;
-    padding-top:50px;
-    font-size:25px;
-    width:250px;
-    color:white;
+    padding-top: 50px;
+    font-size: 25px;
+    width: 250px;
+    color: white;
 }
 
-footer{
-    clear:left;
+footer {
+    clear: left;
     text-align: center;
-    padding:10px;
-    font-size:10px;
-    color:#003768;
+    padding: 10px;
+    font-size: 10px;
+    color: #003768;
 }
 
-.tay{
-    border-radius:20%;
+.tay {
+    border-radius: 20%;
 }
 
-.logo{
+.logo {
     height: 100px;
-    width:100px;
-    transform:translate(690px,-20px);
+    width: 100px;
+    transform: translate(690px, -20px);
 }
-#content{
-    color:white;
+
+#content {
+    color: white;
     text-align: center;
-   transform:translate(380px,0px);
+    transform: translate(380px, 0px);
 }
 
-#contact{
-    transform:translate(300px,0px);
+#contact {
+    transform: translate(300px, 0px);
 }
 
-span{
+span {
     color: orange;
-  text-decoration: underline;
+    text-decoration: underline;
 }
