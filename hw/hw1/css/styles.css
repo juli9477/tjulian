@@ -47,6 +47,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    overflow-x:hidden;
 
 }
 
@@ -61,27 +62,32 @@ html {
 #word1 {
     width: 350px;
     float: left;
-    padding: 55px;
+    padding: 25px;
 }
 
 #word2 {
     width: 350px;
     float: left;
-    padding: 55px;
+    padding: 25px;
 }
 
 #word3 {
     width: 350px;
     float: left;
-    padding: 55px
+    padding: 25px
 }
 
 #word4 {
     width: 300px;
     float: left;
-    padding: 30px;
-    transform: translate(-10px, 22px);
+    padding: 25px;
 
+}
+#word5{
+     width: 350px;
+    float: left;
+    padding: 30px;
+     transform: translate(0px, 0px);
 }
 
 #logo {
@@ -131,6 +137,9 @@ html {
 .ex {
     height: 500px;
     width: 330px;
+    padding:0px;
+    float:left;
+    margin-left: 0px;
 }
 
 h3 {
@@ -179,15 +188,18 @@ h3 {
     text-decoration: none;
     color: black;
 }
-
-#word4 a {
-    text-decoration: none;
+#word5{
+     text-decoration: none;
     color: black;
 }
+#word4 a {
+    text-decoration: none;
+    color: black;}
 
-#bib {
-    padding: 50px;
-}
+#word5 a:hover {
+    border-bottom: 1px white solid;
+    font-size: 2em;
+    transition: .9s;}
 
 #more {
     text-align: right;
@@ -199,6 +211,10 @@ cite a{
     text-decoration: none;
 }
 form{
-    transform: translate(0px, 640px);
+    transform: translate(-100px,600px);
    
+}
+#fix{
+    width:1800px;
+    height:400px;
 }
