@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color:white;
+}
+html{
+    background-color: #8fc8bf;
+    
+}
+
+h1{
+    font-size: 50px;
+    padding:10px;
+}
+
+img{
+    padding:15px;
+}
+
+h2{
+     color:#009933;
+}
+
+#scissors{
+    color:#e3693b;
+}
+
+#paper{
+    color:#009933;
+}
+
+h4{
+text-shadow: 2px 2px #e3693b;
+font-size: 50px;
+ padding-top:20px;
+}
+
+p{
+    font-size: 30px;
+      transform: translate(0,-50px);
+}
+#air{
+    text-align: right;
+     transform: translate(-650px,-330px);
+}
+

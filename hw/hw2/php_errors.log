@@ -1,0 +1,11 @@
+[18-Sep-2017 06:48:49 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php on line 5
+[18-Sep-2017 06:48:49 UTC] PHP Stack trace:
+[18-Sep-2017 06:48:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php:0
+[18-Sep-2017 06:48:49 UTC] PHP   2. ucfirst() /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php:5
+[18-Sep-2017 08:57:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php on line 5
+[18-Sep-2017 09:00:26 UTC] PHP Parse error:  syntax error, unexpected '"rock"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php on line 7
+[18-Sep-2017 09:03:23 UTC] PHP Parse error:  syntax error, unexpected '"paper"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php on line 7
+[18-Sep-2017 09:03:25 UTC] PHP Parse error:  syntax error, unexpected '"paper"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php on line 7
+[18-Sep-2017 09:03:27 UTC] PHP Parse error:  syntax error, unexpected '"paper"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php on line 7
+[18-Sep-2017 09:13:03 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php on line 6
+[18-Sep-2017 09:22:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/tjulian/hw/hw2/inc/functions.php on line 6

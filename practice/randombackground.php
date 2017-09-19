@@ -28,14 +28,17 @@
              h1{
                 
               <?php
-                echo "color:rgba(". rand(0,255) ." , ". rand(0,255) . " , ". rand(0,255) . " , ". (rand(0,100)/100) . ");"
+                echo "color:rgba(". rand(0,255) ." , ". rand(0,255) . " , ". rand(0,255) . " , ". (rand(0,100)/100) . ");" ;
                 
-                echo "background-color:" . displayRandomColor(). ";" ;
+                echo "background-color: " . displayRandomColor() . " ;" ;
+                
+             
                 ?> 
-                
+             }
                 
                 h2{
-                    background: <?= displayRandomColor() ?>;
+                    background-color: <?= displayRandomColor() ?>;
+                    color: <?=displayRandomColor()?>;
             }
         </style>
         

@@ -1,0 +1,13 @@
+[12-Sep-2017 17:34:39 UTC] PHP Parse error:  syntax error, unexpected '$computerCard' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 3
+[12-Sep-2017 17:34:41 UTC] PHP Parse error:  syntax error, unexpected '$computerCard' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 3
+[12-Sep-2017 17:34:51 UTC] PHP Parse error:  syntax error, unexpected '$computerCard' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 3
+[12-Sep-2017 17:34:55 UTC] PHP Parse error:  syntax error, unexpected '$computerCard' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 3
+[12-Sep-2017 17:35:11 UTC] PHP Parse error:  syntax error, unexpected '$computerCard' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 3
+[12-Sep-2017 17:35:28 UTC] PHP Parse error:  syntax error, unexpected '$computerCard' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 3
+[12-Sep-2017 17:35:29 UTC] PHP Parse error:  syntax error, unexpected '$computerCard' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 3
+[12-Sep-2017 17:35:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 11
+[12-Sep-2017 17:35:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 11
+[12-Sep-2017 17:35:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 11
+[12-Sep-2017 17:35:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 11
+[12-Sep-2017 17:35:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 11
+[12-Sep-2017 17:37:02 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/tjulian/challenges/challenge2/index.php on line 58
