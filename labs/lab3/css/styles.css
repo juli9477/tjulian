@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+
+hr{
+    border-width: 1px;
+    border-style: inset;
+    display: block;
+    width:800px;
+    
+}
