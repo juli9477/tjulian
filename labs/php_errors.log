@@ -12,3 +12,15 @@
 [26-Sep-2017 10:37:51 UTC] PHP Stack trace:
 [26-Sep-2017 10:37:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/labs/lab4/index.php:0
 [01-Oct-2017 02:43:47 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/tjulian/labs/lab4/index.php on line 86
+[05-Oct-2017 18:43:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_author' doesn't exist' in /home/ubuntu/workspace/tjulian/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(49): getMaleAuthors()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/index.php on line 21
+[09-Oct-2017 05:12:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_author' doesn't exist' in /home/ubuntu/workspace/tjulian/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(49): getMaleAuthors()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/index.php on line 21

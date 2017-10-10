@@ -836,3 +836,23 @@
 [19-Sep-2017 11:59:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/hw/hw2/index.php:0
 [19-Sep-2017 11:59:53 UTC] PHP   2. include() /home/ubuntu/workspace/tjulian/hw/hw2/index.php:3
 [19-Sep-2017 11:59:53 UTC] PHP   3. displayPoints() /home/ubuntu/workspace/tjulian/hw/hw2/functions.php:67
+[10-Oct-2017 00:17:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 62
+[10-Oct-2017 00:17:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 62
+[10-Oct-2017 00:19:27 UTC] PHP Parse error:  syntax error, unexpected '$randval2' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 64
+[10-Oct-2017 00:24:12 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 60
+[10-Oct-2017 00:25:43 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 60
+[10-Oct-2017 06:06:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 166
+[10-Oct-2017 06:29:30 UTC] PHP Warning:  Illegal string offset 'can' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 149
+[10-Oct-2017 06:29:30 UTC] PHP Stack trace:
+[10-Oct-2017 06:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/hw/hw3/index.php:0
+[10-Oct-2017 15:38:14 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 186
+[10-Oct-2017 15:52:59 UTC] PHP Fatal error:  Call to undefined function isFormValid() in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 168
+[10-Oct-2017 15:52:59 UTC] PHP Stack trace:
+[10-Oct-2017 15:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/hw/hw3/index.php:0
+[10-Oct-2017 15:54:16 UTC] PHP Fatal error:  Call to undefined function math() in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 168
+[10-Oct-2017 15:54:16 UTC] PHP Stack trace:
+[10-Oct-2017 15:54:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/hw/hw3/index.php:0
+[10-Oct-2017 15:55:02 UTC] PHP Fatal error:  Call to undefined function math() in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 168
+[10-Oct-2017 15:55:02 UTC] PHP Stack trace:
+[10-Oct-2017 15:55:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/hw/hw3/index.php:0
+[10-Oct-2017 15:59:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 196
