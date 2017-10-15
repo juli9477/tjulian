@@ -1,5 +1,6 @@
 <?php
 
+/*
 $host = 'localhost'; //cloud 9 database
 $dbname = 'quotes';
 $username = 'root';
@@ -9,12 +10,17 @@ $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 
 //we'll be able to see some errors with database
 $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+*/
 
-function getMaleAuthors() {
+include '../../dbConnection.php';
+$dbConn = getDatabaseConnection();
+
+//This works but it's very time consuming. Not efficient.
+function getRandomQuote_NotEfficient() {
     
     global $dbConn;
     
-    $sql = "SELECT firstName, lastName, gender FROM q_author WHERE gender = 'M'";
+    $sql = "SELECT quote FROM q_quote ";
     
     $stmt = $dbConn -> prepare ($sql);
     
@@ -22,13 +28,57 @@ function getMaleAuthors() {
     
     $records = $stmt -> fetchAll();  //retrieves all records;
     
-    foreach($records as $record) {
-        
-        echo $record['firstName'] . "  " . $record['lastName'] . "<br />";
-        
-    }
+    shuffle($records);
+    
+    echo $records[0]['quote'];
+    //print_r($records);
 
 }
+
+
+function getRandomQuote() {
+    
+    global $dbConn;
+    
+    
+    //Retrieve all quote Ids
+    //Select one quoteId randomly
+    //Get the quote for that quoteId
+    
+    //Step 1: Generating a random quoteId
+
+    $sql = "SELECT quoteId FROM q_quote";  //retrieves all quoteIds
+    
+    $stmt = $dbConn -> prepare ($sql);
+    
+    $stmt -> execute();
+    
+    $records = $stmt -> fetchAll();  //retrieves all records;
+    
+    //$records = array (1, 5, 7, 10,  15);
+    
+    //$randomIndex = rand(0, count($records)-1 );
+    $randomIndex = array_rand($records);
+    
+    //echo($records[$randomIndex]['quoteId']);
+    $quoteId = $records[$randomIndex]['quoteId'];
+    
+    //Step 2: Retreiving quote based on Random Quote Id
+    $sql = "SELECT quote, firstName, lastName, authorId 
+            FROM q_quote 
+            NATURAL JOIN q_author
+            WHERE quoteId = $quoteId";
+    $stmt = $dbConn -> prepare ($sql);
+    $stmt -> execute();
+    $record = $stmt -> fetch(); //using "fetch()" because it's expected to get ONLY ONE record        
+    
+    echo  "<em>" . $record['quote']  . "</em><br />";
+    echo "<a target='authorInfo' href='getAuthorInfo.php?authorId=".$record['authorId']."'>-" . $record['firstName'] . " " . $record['lastName'] . "</a>";
+    
+    //print_r($records);
+
+}
+
 //print_r($records);
 
 // while ($row = $stmt -> fetch())  {
@@ -45,12 +95,11 @@ function getMaleAuthors() {
     </head>
     <body>
 
-<h1> Male Authors </h1>
-<?=getMaleAuthors()?>
 
-<h1> All Quotes </h1>
-<?=getAllQuotes()?>
+    <?=getRandomQuote()?>        
 
+<br />
+    <iframe name="authorInfo" width="500" height="300"></iframe>
 
     </body>
 </html>
