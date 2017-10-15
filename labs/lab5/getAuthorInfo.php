@@ -1,6 +1,6 @@
 <?php
 
-include '../../dbConnection.php';
+include 'dbConnection.php';
 
 $conn = getDatabaseConnection();
 
@@ -9,7 +9,7 @@ $stmt = $conn -> prepare ($sql);
 $stmt -> execute();
 $record = $stmt -> fetch();
 
-echo $record['firstName'] . "  " . $record['biography'];
+
 
 ?>
 
@@ -22,7 +22,16 @@ echo $record['firstName'] . "  " . $record['biography'];
 
 <h1> Author Info </h1>
 
+<?php
+echo $record['firstName'] 
+. "  " . $record['biography']. "<br> Date of Birth " .$record['dob']
+. " <br> Date of Death:  " . $record['dod']
+. " <br> Gender:  " . $record['gender']
+. " <br> Profession:  " . $record['profession']
+. " <br> Country:  " . $record['country']
+. "<br><img src= " . $record['picture'];
 
+?>
 
     </body>
 </html>

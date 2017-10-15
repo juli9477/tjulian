@@ -1,7 +1,7 @@
  <style> 
  body {
     background-image: url(img/sea.jpg);
-    background-size: 100% 100%;
+    width:3000px;
     background-attachment: fixed;
  }
   </style> 

@@ -1,18 +1,9 @@
+
 <?php
 
-/*
-$host = 'localhost'; //cloud 9 database
-$dbname = 'quotes';
-$username = 'root';
-$password = '';
-//creates database connection
-$dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 
-//we'll be able to see some errors with database
-$dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-*/
 
-include '../../dbConnection.php';
+include 'dbConnection.php';
 $dbConn = getDatabaseConnection();
 
 //This works but it's very time consuming. Not efficient.
@@ -79,11 +70,7 @@ function getRandomQuote() {
 
 }
 
-//print_r($records);
 
-// while ($row = $stmt -> fetch())  {
-//     echo  $row['firstName'] . ", " . $row['lastName'] .  " " . $row['gender'] . "<br />";
-// }
 
 
 ?>
@@ -92,14 +79,18 @@ function getRandomQuote() {
 <html>
     <head>
         <title> Lab 5: Random Famous Quote Generator </title>
+          <style> @import url("css/style.css");</style>
     </head>
     <body>
 
-
+<h1> Quote of the Day</h1>
+<div id="box"> 
     <?=getRandomQuote()?>        
+    </div>
 
 <br />
-    <iframe name="authorInfo" width="500" height="300"></iframe>
+    <iframe name="authorInfo" id="frame" width="600" height="700"></iframe>
+    <img src="img/q1.png" class="q1">  <img src="img/q2.png" class="q2"> 
 
     </body>
 </html>

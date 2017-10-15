@@ -1,0 +1,42 @@
+html{
+    text-align: center;
+}
+
+body{
+    padding-top: 90px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #78acc1;
+}
+
+#frame{
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.9;
+    border-color: white;
+    transform: translate(190px,30px);
+    text-align: center;
+}
+
+.q1{
+      transform: translate(80px, -700px);
+       height:10%;
+      width:10%;
+}
+
+.q2{
+      transform: translate(-650px, -700px);
+      height:10%;
+      width:10%;
+     
+}
+
+#box{
+    width:300px;
+     transform: translate(650px, 0px);
+}
+
+h1{
+    color:#ff7b00;
+}
