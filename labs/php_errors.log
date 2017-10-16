@@ -111,3 +111,69 @@ Stack trace:
 #1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
 #2 {main}
   thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:29:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:29:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:29:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:29:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:31:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:31:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:31:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:31:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:31:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:31:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
+[16-Oct-2017 17:48:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_7502e641105dd00.q_quote' doesn't exist' in /home/ubuntu/workspace/tjulian/labs/lab5/index.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(45): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(88): getRandomQuote()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/index.php on line 45
