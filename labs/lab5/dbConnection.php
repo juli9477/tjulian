@@ -1,9 +1,9 @@
 <?php
 
 function getDatabaseConnection() {
-    $host = 'localhost'; //cloud 9 database
-    $dbname = 'quotes';
-    $username = 'root';
+    $host = 'us-cdbr-iron-east-05.cleardb.net'; //cloud 9 database
+    $dbname = ' heroku_7502e641105dd00';
+    $username = 'b1c865c444a53f';
     $password = '';
     
         //when connecting from Heroku

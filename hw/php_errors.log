@@ -856,3 +856,5 @@
 [10-Oct-2017 15:55:02 UTC] PHP Stack trace:
 [10-Oct-2017 15:55:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/hw/hw3/index.php:0
 [10-Oct-2017 15:59:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 196
+[16-Oct-2017 01:31:42 UTC] PHP Parse error:  syntax error, unexpected 'type' (T_STRING) in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 39
+[16-Oct-2017 01:34:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 72
