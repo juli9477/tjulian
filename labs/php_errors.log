@@ -105,3 +105,9 @@ Stack trace:
 [15-Oct-2017 02:59:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/labs/lab5/getAuthorInfo.php on line 5
 [15-Oct-2017 02:59:50 UTC] PHP Stack trace:
 [15-Oct-2017 02:59:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/labs/lab5/getAuthorInfo.php:0
+[16-Oct-2017 17:22:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b1c865c444a53f'@'%' to database ' heroku_7502e641105dd00'' in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'b1c865c444a53f', '12cd50e6')
+#1 /home/ubuntu/workspace/tjulian/labs/lab5/index.php(7): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/labs/lab5/dbConnection.php on line 20
