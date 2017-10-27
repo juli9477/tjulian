@@ -1,0 +1,28 @@
+.banner {
+    width:1500px;
+    height:350px;
+     transform: translate(0px, 250px);
+}
+
+body{
+    background-color: #36a7d0;
+    color:white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color:orange;
+    font-family:sans-serif;
+}
+
+strong{
+    color:orange;
+    padding:5px;
+}
+
+.light {
+    width:25%;
+     transform: translate(565px, -180px);
+}

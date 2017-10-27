@@ -858,3 +858,115 @@
 [10-Oct-2017 15:59:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 196
 [16-Oct-2017 01:31:42 UTC] PHP Parse error:  syntax error, unexpected 'type' (T_STRING) in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 39
 [16-Oct-2017 01:34:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 72
+[18-Oct-2017 03:57:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 115
+[18-Oct-2017 04:06:02 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/tjulian/hw/hw3/index.php on line 43
+[18-Oct-2017 04:36:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM restaurant' at line 2' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(9): PDO->query('SELECT cuisine,...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 9
+[18-Oct-2017 04:37:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.restaurant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(8): PDO->query('SELECT*?FROM re...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 8
+[18-Oct-2017 04:40:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.restaurant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(8): PDO->query('SELECT*?FROM re...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 8
+[18-Oct-2017 04:40:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.restaurant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(8): PDO->query('SELECT*?FROM re...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 8
+[18-Oct-2017 04:40:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.restaurant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(8): PDO->query('SELECT*?FROM re...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 8
+[18-Oct-2017 04:40:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.restaurant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(8): PDO->query('SELECT*?FROM re...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 8
+[18-Oct-2017 04:40:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.restaurant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(8): PDO->query('SELECT*?FROM re...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 8
+[18-Oct-2017 04:44:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.restaurant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(15): PDO->query('SELECT*?FROM re...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 15
+[18-Oct-2017 04:46:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.mp_town' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(13): PDO->query('SELECT town_nam...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 13
+[18-Oct-2017 04:46:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.mp_town' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(13): PDO->query('SELECT town_nam...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 13
+[18-Oct-2017 04:46:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.mp_town' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(13): PDO->query('SELECT town_nam...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 13
+[18-Oct-2017 05:00:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE cuisine= Japanese' at line 2' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT restaura...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:01:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE cuisine LIKE Japanese' at line 2' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT restaura...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:01:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE cuisine LIKE Japanese' at line 2' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT restaura...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:02:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE cuisine LIKE 'Japanese'' at line 2' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT restaura...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:02:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE cuisine ='Japanese'' at line 2' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT restaura...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:02:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE cuisine ='Japanese'' at line 2' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT restaura...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:03:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.resturant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT cuisine?...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:03:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.resturant' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT cuisine?...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:03:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.resturants' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT cuisine?...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[18-Oct-2017 05:03:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.resturants' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT cuisine?...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
+[19-Oct-2017 18:18:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.m_students' doesn't exist' in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw3/connect.php(10): PDO->query('SELECT * ?     ...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw3/connect.php on line 10
