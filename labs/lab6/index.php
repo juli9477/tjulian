@@ -108,14 +108,12 @@
 <html>
     <head>
         <title>Lab 6: Quote Finder</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
     </head>
     <body>
-    <img src="img/banner1.png" class="banner">
-    <img src="img/light.png" class="light">
-
-    
         <h1>Quote Finder</h1>
+        <img src="img/banner1.png" class="banner">
+    <img src="img/light.png" class="light">
         <form method="get">
                 <strong>Quote Content:</strong>
                 <input type="text" name="content" value="<?=$_GET['content']?>">
@@ -155,7 +153,7 @@
                     <?=displayCategoryOptions()?>
                 </select>
                 
-                <strong>  Order by:   </strong>
+                Order by: 
                  <input type="radio" name="orderBy" id="orderByAuthor" value="orderByAuthor">
                 <label for="orderByAuthor">Author</label>
                  <input type="radio" name="orderBy" id="orderByQuote" value="orderByQuote">
@@ -170,9 +168,6 @@
             <?=displayQuotes()?>
             
         </div>
-        
-        
-       
         
     </body>
 </html>
