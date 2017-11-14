@@ -67,11 +67,13 @@ $(document).ready(function() {
             $('<img src="img/wrong.png" width="50px" height="50px" >').appendTo("#wrong3");
             $("#q3").css("background-color", "#ff0000");
             $("#greenanimal").css("background-color", "#41ad49");
+             $("#redseal").css("background-color", "#ff0000");
         }
         if (question3 == "Wood") {
             $('<img src="img/wrong.png" width="50px" height="50px" >').appendTo("#wrong3");
             $("#q3").css("background-color", "#ff0000");
             $("#greenanimal").css("background-color", "#41ad49");
+             $("#redwood").css("background-color", "#ff0000");
         }
          if (question3 == "") {
             $('<img src="img/wrong.png" width="50px" height="50px" >').appendTo("#wrong3");
