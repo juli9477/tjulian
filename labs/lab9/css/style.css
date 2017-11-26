@@ -1,0 +1,53 @@
+body{
+    margin-left: 600px;
+    width:400px;
+    background:#485055;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+h1{
+    color:#18BF95;
+}
+
+legend{
+     color:#D35B00;
+}
+
+.icon{
+    height:200px;
+    transform: translate(-120px, 0px);
+   
+}
+
+
+#pic{
+    width:800px;
+  	transform: translate(10px, 0px);
+}
+
+.icon4{
+    height:100px;
+    margin-left: 120px;
+    padding:20px;
+   
+}
+
+.icon5{
+    height:20px;
+    padding:5px;
+}
+
+fieldset{
+     color:#ffffff;
+}
+
+.button{
+border-radius: 10px;
+background-color:#D35B00;
+color:white;
+height: 40px;
+width: 100px;
+ font-family: 'Raleway', sans-serif;
+ padding:10px;
+}
