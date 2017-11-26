@@ -26,6 +26,8 @@
                     $("#lat").html(data.latitude);
                     $("#long").html(data.longitude);
 
+
+
                 },
                 complete: function(data, status) { //optional, used for debugging purposes
                     //alert(status);
@@ -70,11 +72,11 @@
 
                     if (data == false) {
                         $('#dname').append('username available  ');
-                         $('#dname').css('color','green');
+                        $('#dname').css('color', 'green');
                     }
                     else {
                         $('#dname').append('username NOT available!');
-                         $('#dname').css('color','red');
+                        $('#dname').css('color', 'red');
                     }
 
 
@@ -86,48 +88,87 @@
             }); //ajax
         }
 
+
+
+        function checkZip() {
+            $.ajax({
+
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                dataType: "json",
+                data: { "zip": $("#zip").val() },
+                success: function(data, status) {
+                    //alert(data);
+
+                    if (data == false) {
+                          $('#zipcode').append('Zip code not found');
+                        $('#zipcode').css('color', 'red');
+                       
+                    }
+                    else {
+
+                    }
+
+
+                },
+                complete: function(data, status) { //optional, used for debugging purposes
+                    //alert(status);
+                }
+
+            }); //ajax
+        }
+
+
+
+
+
+
+
         $(document).ready(function() {
 
             $("#zip").change(function() { getCity() });
             $("#state").change(function() { getCounties() });
             $("#username").change(function() { checkUsername() });
+            
         }); //document.ready
-        
-        
-function checkPassword(){
-if(signup.pass1.value == "")
-{
-alert("Please enter Password")
-}
 
 
-if(signup.pass2.value == "")
-{
- alert("Please confirm Password")
-}
-if(signup.pass2.value != signup.pass1.value)
-{
-	alert("Passwords do not match. Please retype password");
-}
+        function checkPassword() {
+            if (signup.pass1.value == "") {
+                 $('#password1').append('Please type password');
+                  $('#password1').css('color', 'red');
+            }
 
-return true;
-}
 
- 
-        
-        
+            if (signup.pass2.value == "") {
+                 $('#password2').append('Please type password');
+                  $('#password2').css('color', 'red');
+            }
+            if (signup.pass2.value != signup.pass1.value) {
+                
+                $('#password1').append('Passwords do not match. Please retype password');
+                 $('#password2').append('Passwords do not match. Please retype password');
+                $('#password1').css('color', 'red');
+                 $('#password2').css('color', 'red');
+            }
+
+            return true;
+        }
     </script>
-    <div id="pic"> 
-<img src="icon.png" class="icon"> 
-<img src="icon2.png" class="icon"> 
-<img src="icon3.png" class="icon"> 
-</div>
+    <div id="pic">
+        <img src="icon.png" class="icon">
+        <img src="icon2.png" class="icon">
+        <img src="icon3.png" class="icon">
+    </div>
     <h1> Sign Up Form </h1>
 
-    <form id="signup" name="signup">
+    <form id="signup" name="signup" onsubmit="return false">
         <fieldset>
             <legend>Sign Up</legend>
-            First Name: <input type="text"><br><br> Last Name: <input type="text"><br> <br> Email: <input type="text"><br> <br> Phone Number:<input type="text"><br><br> Zip Code: <input type="text" id="zip"><br> City: <span id="city"></span>
+            First Name: <input type="text"><br><br> Last Name: <input type="text"><br> <br> Email: <input type="text"><br> <br> Phone Number:<input type="text"><br><br>
+           Zip Code: <input type="text" id="zip">
+            <div id="zipcode"> </div>
+            <br> City: <span id="city"></span>
             <br> Latitude: <span id="lat"></span>
             <br> Longitude: <span id="long"></span>
             <br><br> State:
@@ -139,23 +180,20 @@ return true;
                 <option value="hi">Hawaii </option>
             </select><br><br> Select a County: <select id="county">
                 <option ></option>
-            </select><br><br> 
-            Desired Username: <input type="text" id="username">
-            <div id="dname"></div><br><br>
-            
-            
-            
-            Password: <input type="password"  name="pass1"><br><br> 
-            
+            </select><br><br> Desired Username: <input type="text" id="username">
+            <div id="dname"></div><br><br> 
+            Password: <input type="password" name="pass1"><br><br> 
+            <div id="password1"></div>
             Type Password Again: <input type="password" name="pass2"><br><br>
-            
-            
-            <input type="submit" value="Sign up!" class="button" onclick="checkPassword();"><br>
+            <div id="password2"></div>
+
+
+            <input type="submit" value="Sign up!" class="button" onclick="checkPassword();checkZip();"><br>
             <img src="icon5.png" class="icon5">
         </fieldset>
     </form>
 
-<img src="icon4.png" class="icon4"> 
+    <img src="icon4.png" class="icon4">
 
 
     </body>
