@@ -37,7 +37,7 @@ $record = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if (empty($record)) {
     
-  header("Location: index.php?login=false");
+  header("Location: index.html?login=false");
   exit;
   
 } else {

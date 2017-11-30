@@ -22,8 +22,8 @@ function checkLogin() {
         
     </head>
     <body>
-<div class="container">
- <div class="col-sm-4">
+
+
         <h1> Admin Login</h1>
         
         <form method="POST" action="loginProcess.php">

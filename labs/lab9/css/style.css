@@ -51,3 +51,8 @@ width: 100px;
  font-family: 'Raleway', sans-serif;
  padding:10px;
 }
+
+#hide{
+   background-color:blue;
+   opacity:0.5;
+}

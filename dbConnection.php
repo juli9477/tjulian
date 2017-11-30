@@ -13,11 +13,12 @@ function getDatabaseConnection($dbname='quotes') {
         $dbname = substr($url["path"], 1);
         $username = $url["user"];
         $password = $url["pass"];
+        $score = $url["score"];
     } 
     
     
     //creates database connection
-    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password, $score);
     
     //we'll be able to see some errors with database
     $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
