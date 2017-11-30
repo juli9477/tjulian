@@ -653,3 +653,8 @@ Stack trace:
 #0 /home/ubuntu/workspace/tjulian/hw/hw5/score.php(15): PDOStatement->fetch(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/tjulian/hw/hw5/score.php on line 15
+[30-Nov-2017 12:07:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/tjulian/hw/hw5/score.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/score.php(15): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/score.php on line 15

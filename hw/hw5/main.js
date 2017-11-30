@@ -3,13 +3,13 @@ $(document).ready(function() {
 
     $("#quiz").submit(function(e) {
         e.preventDefault()
-       
+
         var question1 = document.quiz.question1.value;
         var question2 = document.quiz.question2.value;
         var question3_1 = document.quiz.question3_1;
         var question3_2 = document.quiz.question3_2;
         var question3_3 = document.quiz.question3_3;
-        
+
         var question4 = document.quiz.question4.value;
         var question5 = document.quiz.question5.value;
         var question6 = document.quiz.question6.value;
@@ -137,10 +137,10 @@ $(document).ready(function() {
             document.getElementById("green4").style.background = "#41ad49";
         }
 
-       
-        
+
+
         //Part2
-        
+
         if (question4 == "4") {
             score++;
             $('<img src="img/right.png" width="50px" height="50px" >').appendTo("#right4");
@@ -152,14 +152,14 @@ $(document).ready(function() {
             $('<img src="img/wrong.png" width="50px" height="50px" >').appendTo("#wrong5");
             $("#q1").css("background-color", "#ff0000");
              $('#word').append('Answer:4,000 years old');
-            
+
         }
 
         if (question4 == "10") {
             $('<img src="img/wrong.png" width="50px" height="50px" >').appendTo("#wrong6");
             $("#q1").css("background-color", "#ff0000");
              $('#word').append('Answer:4,000 years old');
-           
+
         }
 
         if (question4 == "20") {
@@ -169,17 +169,17 @@ $(document).ready(function() {
         }
 
 
-       
+
 
 
         if (question5 === "1936") {
             score++;
             $('<img src="img/right.png" width="50px" height="50px" >').appendTo("#right5");
             $("#q2").css("background-color", "#41ad49");
-           
+
         }
 
-        
+
 
       else {
            $('<img src="img/wrong.png" width="50px" height="50px" >').appendTo("#wrong8");
@@ -213,11 +213,11 @@ $(document).ready(function() {
             $("#q3").css("background-color", "#ff0000");
             $("#greenanimal").css("background-color", "#41ad49");
         }
-        
+
         else {
-             
+
         }
-        
+
  document.getElementById("after_submit").style.visibility = "visible";
         document.getElementById("number_correct").innerHTML = "You got " + Math.floor((score / 6) * 100) + "% correct on this attempt!";
 
@@ -226,11 +226,16 @@ $(document).ready(function() {
             document.getElementById("congrats").innerHTML = "Here is a virtual badge for getting over 80%";
 
         }
-        
+        if (score == 6) {
+            document.getElementById("badge").innerHTML = '<img src="img/win.png" width="100px" height="100px">';
+            document.getElementById("congrats").innerHTML = "Here is a virtual badge for getting over 80%";
+
+        }
+
          $("#hide").show()
-        
-       
-        
+
+
+
 
         $.ajax({
             type: "POST",
@@ -246,7 +251,7 @@ $(document).ready(function() {
 
         }); //AJAX
 });
-        
+
 
 
     });
