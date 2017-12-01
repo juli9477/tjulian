@@ -85,3 +85,17 @@ Stack trace:
 [28-Nov-2017 19:38:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/labs/lab10/index.php:0
 [28-Nov-2017 19:38:30 UTC] PHP   2. displayImages() /home/ubuntu/workspace/tjulian/labs/lab10/index.php:57
 [28-Nov-2017 19:38:30 UTC] PHP   3. filesize() /home/ubuntu/workspace/tjulian/labs/lab10/index.php:23
+[01-Dec-2017 03:15:36 UTC] PHP Fatal error:  Call to undefined function imgSize() in /home/ubuntu/workspace/tjulian/labs/lab10/index.php on line 77
+[01-Dec-2017 03:15:36 UTC] PHP Stack trace:
+[01-Dec-2017 03:15:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/labs/lab10/index.php:0
+[01-Dec-2017 03:18:41 UTC] PHP Fatal error:  Call to undefined function imgSize() in /home/ubuntu/workspace/tjulian/labs/lab10/index.php on line 75
+[01-Dec-2017 03:18:41 UTC] PHP Stack trace:
+[01-Dec-2017 03:18:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/labs/lab10/index.php:0
+[01-Dec-2017 03:27:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/labs/lab10/index.php on line 38
+[01-Dec-2017 03:31:16 UTC] PHP Fatal error:  Call to undefined function displayImages() in /home/ubuntu/workspace/tjulian/labs/lab10/index.php on line 63
+[01-Dec-2017 03:31:16 UTC] PHP Stack trace:
+[01-Dec-2017 03:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/labs/lab10/index.php:0
+[01-Dec-2017 03:31:35 UTC] PHP Fatal error:  Call to undefined function displayImages() in /home/ubuntu/workspace/tjulian/labs/lab10/index.php on line 63
+[01-Dec-2017 03:31:35 UTC] PHP Stack trace:
+[01-Dec-2017 03:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/labs/lab10/index.php:0
+[01-Dec-2017 03:36:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/tjulian/labs/lab10/index.php on line 32

@@ -658,3 +658,46 @@ Stack trace:
 #0 /home/ubuntu/workspace/tjulian/hw/hw5/score.php(15): PDOStatement->fetch(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/tjulian/hw/hw5/score.php on line 15
+[30-Nov-2017 13:35:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/tjulian/hw/hw5/index.php:169
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/index.php(169): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/index.php on line 169
+[30-Nov-2017 13:35:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/tjulian/hw/hw5/score.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/score.php(15): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/score.php on line 15
+[30-Nov-2017 13:35:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/tjulian/hw/hw5/index.php:169
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/index.php(169): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/index.php on line 169
+[30-Nov-2017 13:35:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/tjulian/hw/hw5/score.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/score.php(15): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/score.php on line 15
+[30-Nov-2017 13:36:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/tjulian/hw/hw5/score.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/score.php(15): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/score.php on line 15
+[30-Nov-2017 13:36:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null' in /home/ubuntu/workspace/tjulian/hw/hw5/index.php:169
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/index.php(169): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/index.php on line 169
+[30-Nov-2017 13:36:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/tjulian/hw/hw5/score.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/score.php(15): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/score.php on line 15
+[30-Nov-2017 13:53:19 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/tjulian/dbConnection.php:3) in /home/ubuntu/workspace/tjulian/dbConnection.php on line 3
+[30-Nov-2017 13:53:19 UTC] PHP Stack trace:
+[30-Nov-2017 13:53:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/hw/hw5/loginProcess.php:0
+[30-Nov-2017 13:54:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/tjulian/hw/hw5/score.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/hw/hw5/score.php(15): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/hw/hw5/score.php on line 15
