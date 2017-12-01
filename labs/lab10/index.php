@@ -4,7 +4,7 @@ function displayImages(){
    
 if(isset($_POST['submitForm'])){//checks whether the form has been submitted
  if ( $_FILES['myFile']['size'] >= 100000){
-    echo "<h1>ERROR:File must be smaller than 1MG</h1>";
+    echo "<h1>ERROR:File must be smaller than 1MB</h1>";
     }
     else {
 
