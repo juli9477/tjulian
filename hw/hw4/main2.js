@@ -9,6 +9,7 @@ $(document).ready(function() {
         var correct = 0;
 
         if (question1 == "4") {
+           
             correct++;
             $('<img src="img/right.png" width="50px" height="50px" >').appendTo("#right");
             $("#q1").css("background-color", "#41ad49");

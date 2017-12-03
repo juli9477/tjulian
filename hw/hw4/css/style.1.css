@@ -1,0 +1,103 @@
+body {
+	overflow-x: hidden;
+	margin-bottom: 100px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#quiz {
+
+	margin-left: 680px;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+#right {
+	transform: translate(-50px, 40px)
+}
+
+#right2 {
+	transform: translate(-50px, 40px)
+}
+
+#right3 {
+	transform: translate(-50px, 40px)
+}
+
+#wrong {
+	transform: translate(-50px, 40px)
+}
+
+#wrong1 {
+	transform: translate(-50px, 40px)
+}
+
+#wrong2 {
+	transform: translate(-50px, 40px)
+}
+
+#wrong3 {
+	transform: translate(-50px, 40px)
+}
+
+#q1 {
+	width: 140px;
+}
+
+#q2 {
+	width: 330px;
+}
+
+#q3 {
+	width: 240px;
+}
+
+#banner {
+	text-align: left;
+	width: 1590px;
+	height: 500px;
+	transform: translate(-10px, -10px);
+	overflow: hidden;
+}
+
+#center {
+	text-align: center;
+}
+
+#button1 {
+	text-align: center;
+	background-color: #668cff;
+	color: white;
+	transform: translate(-70px, 0px);
+}
+
+#button2 {
+	text-align: center;
+	background-color: #668cff;
+	color: white;
+	transform: translate(-70px, 0px);
+}
+
+.icon {
+	height: 100px;
+	width: 100px;
+	transform: translate(630px, 0px);
+
+}
+#greenanimal{
+		width:240px;
+}
+
+#redseal{
+		width:100px;
+}
+
+#redwood{
+		width:100px;
+}
