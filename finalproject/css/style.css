@@ -1,0 +1,73 @@
+#banner{
+    width:1750px;
+    height:500px; 
+	transform: translate(-20px,-10px);
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+#container{
+    margin-left:300px;
+    width:1600px;
+}
+
+#admin{
+    transform: translate(170px,-120px);
+}
+
+#user{
+    width:20%;
+    height:20%;
+    transform: translate(1250px,0px);
+    background-color: blue;
+}
+
+.title{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.name{
+transform: translate(-90px,0px);
+width:300px;
+text-align: center;
+}
+#price{
+  transform: translate(320px,-275px);
+  width:30px;
+}
+
+#cuisine{
+    transform: translate(450px,-315px);
+  width:100px;
+    
+}
+
+#des{
+    transform: translate(700px,-354px);
+  width:400px;
+}
+
+.img img
+{
+height:200px;
+width:200px;
+padding:10px;
+border-radius: 200px;
+}
+
+.img{
+    height: 230px;
+    width:230px;
+    text-align: center;
+     transform: translate(-58px,0px);
+    
+}
+

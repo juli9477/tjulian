@@ -157,14 +157,14 @@ h3 {
 	text-align: center;
 	height: 300px;
 	width: 300px;
-	transform: translate(650px, -1150px);
+	transform: translate(650px, -1300px);
 		z-index: 4; 
 		position: relative;
 }
 
 #container {
 	background-color: white;
-	height: 300px;
+	height: 350px;
 	width: 300px;
 	transform: translate(650px, -1150px);
 	z-index:1; 

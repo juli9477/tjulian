@@ -30,3 +30,630 @@
 [12-Sep-2017 18:18:15 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/ubuntu/workspace/tjulian/practice/array.php on line 20
 [12-Sep-2017 18:18:17 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/ubuntu/workspace/tjulian/practice/array.php on line 20
 [12-Sep-2017 18:18:36 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/ubuntu/workspace/tjulian/practice/array.php on line 20
+[04-Dec-2017 00:34:41 UTC] PHP Fatal error:  Call to undefined function displayCuisineOptions() in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 38
+[04-Dec-2017 00:34:41 UTC] PHP Stack trace:
+[04-Dec-2017 00:34:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/index.php:0
+[04-Dec-2017 00:34:55 UTC] PHP Fatal error:  Call to undefined function displayCuisineOptions() in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 38
+[04-Dec-2017 00:34:55 UTC] PHP Stack trace:
+[04-Dec-2017 00:34:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/index.php:0
+[04-Dec-2017 00:43:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 28
+[04-Dec-2017 02:13:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cuisine' in 'field list'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(114): displayCuisineOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 11
+[04-Dec-2017 02:13:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cuisine' in 'field list'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(114): displayCuisineOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 11
+[04-Dec-2017 02:14:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cuisine' in 'field list'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(124): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 72
+[04-Dec-2017 02:16:00 UTC] PHP Fatal error:  Call to undefined function displaySearch() in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 124
+[04-Dec-2017 02:16:00 UTC] PHP Stack trace:
+[04-Dec-2017 02:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/index.php:0
+[04-Dec-2017 02:16:15 UTC] PHP Fatal error:  Call to undefined function displaySearch() in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 124
+[04-Dec-2017 02:16:15 UTC] PHP Stack trace:
+[04-Dec-2017 02:16:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/index.php:0
+[04-Dec-2017 02:16:49 UTC] PHP Fatal error:  Call to undefined function displaySearch() in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 124
+[04-Dec-2017 02:16:49 UTC] PHP Stack trace:
+[04-Dec-2017 02:16:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/index.php:0
+[04-Dec-2017 02:24:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 78
+[04-Dec-2017 02:27:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(70): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 70
+[04-Dec-2017 02:30:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(74): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 74
+[04-Dec-2017 02:33:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(74): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 74
+[04-Dec-2017 02:33:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(74): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 74
+[04-Dec-2017 02:33:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(74): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 74
+[04-Dec-2017 02:38:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(71): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 71
+[04-Dec-2017 02:39:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(71): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 71
+[04-Dec-2017 02:40:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(71): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 71
+[04-Dec-2017 02:40:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quote' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(48): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(100): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 48
+[04-Dec-2017 02:40:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quote' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(48): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(100): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 48
+[04-Dec-2017 02:41:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'restaurants' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(48): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(100): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 48
+[04-Dec-2017 02:41:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'restaurants' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(48): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(100): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 48
+[04-Dec-2017 02:41:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'restaurants' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(48): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(100): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 48
+[04-Dec-2017 02:41:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'restaurants' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(48): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(100): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 48
+[04-Dec-2017 02:42:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'restaurants' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(48): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(100): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 48
+[04-Dec-2017 02:59:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(46): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(94): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 46
+[04-Dec-2017 02:59:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 46
+[04-Dec-2017 02:59:38 UTC] PHP Stack trace:
+[04-Dec-2017 02:59:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/index.php:0
+[04-Dec-2017 02:59:38 UTC] PHP   2. displaySearch() /home/ubuntu/workspace/tjulian/finalproject/index.php:95
+[04-Dec-2017 03:00:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/tjulian/finalproject/index.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(47): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(95): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 47
+[04-Dec-2017 03:35:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/tjulian/finalproject/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(56): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(113): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 56
+[04-Dec-2017 03:36:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/tjulian/finalproject/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(113): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 56
+[04-Dec-2017 03:37:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/tjulian/finalproject/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(56): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(113): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 56
+[04-Dec-2017 03:48:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'peice' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(121): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 56
+[04-Dec-2017 03:59:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 130
+[04-Dec-2017 04:44:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/tjulian/finalproject/index.php:66
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/index.php(66): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/tjulian/finalproject/index.php(122): displaySearch()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 66
+[04-Dec-2017 07:32:13 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 8
+[04-Dec-2017 07:32:13 UTC] PHP Stack trace:
+[04-Dec-2017 07:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[04-Dec-2017 07:32:13 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 8
+[04-Dec-2017 07:32:13 UTC] PHP Stack trace:
+[04-Dec-2017 07:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[04-Dec-2017 07:32:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 9
+[04-Dec-2017 07:32:13 UTC] PHP Stack trace:
+[04-Dec-2017 07:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[04-Dec-2017 07:33:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.q_admin' doesn't exist' in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 33
+[04-Dec-2017 07:33:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 33
+[04-Dec-2017 07:34:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.q_admin' doesn't exist' in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 33
+[04-Dec-2017 07:36:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'form.q_admin' doesn't exist' in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 33
+[04-Dec-2017 07:45:05 UTC] PHP Fatal error:  Call to undefined function authorList() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 53
+[04-Dec-2017 07:45:05 UTC] PHP Stack trace:
+[04-Dec-2017 07:45:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[04-Dec-2017 07:56:08 UTC] PHP Fatal error:  Call to undefined function authorList() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 53
+[04-Dec-2017 07:56:08 UTC] PHP Stack trace:
+[04-Dec-2017 07:56:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[04-Dec-2017 07:56:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/finalproject/login.php on line 12
+[04-Dec-2017 07:56:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/finalproject/login.php on line 12
+[04-Dec-2017 08:00:59 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 26
+[04-Dec-2017 08:00:59 UTC] PHP Stack trace:
+[04-Dec-2017 08:00:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[04-Dec-2017 08:00:59 UTC] PHP   2. authorList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:75
+[04-Dec-2017 08:00:59 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 26
+[04-Dec-2017 08:00:59 UTC] PHP Stack trace:
+[04-Dec-2017 08:00:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[04-Dec-2017 08:00:59 UTC] PHP   2. authorList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:75
+[04-Dec-2017 08:00:59 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 27
+[04-Dec-2017 08:00:59 UTC] PHP Stack trace:
+[04-Dec-2017 08:00:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[04-Dec-2017 08:00:59 UTC] PHP   2. authorList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:75
+[04-Dec-2017 08:01:50 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 26
+[04-Dec-2017 08:01:50 UTC] PHP Stack trace:
+[04-Dec-2017 08:01:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[04-Dec-2017 08:01:50 UTC] PHP   2. authorList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:75
+[04-Dec-2017 08:01:50 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 26
+[04-Dec-2017 08:01:50 UTC] PHP Stack trace:
+[04-Dec-2017 08:01:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[04-Dec-2017 08:01:50 UTC] PHP   2. authorList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:75
+[04-Dec-2017 08:01:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 27
+[04-Dec-2017 08:01:50 UTC] PHP Stack trace:
+[04-Dec-2017 08:01:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[04-Dec-2017 08:01:50 UTC] PHP   2. authorList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:75
+[04-Dec-2017 08:20:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cuisine' in 'field list'' in /home/ubuntu/workspace/tjulian/finalproject/admin.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/admin.php(31): PDOStatement->execute()
+#1 /home/ubuntu/workspace/tjulian/finalproject/admin.php(74): restaurantList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 31
+[04-Dec-2017 08:55:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cuisine' in 'field list'' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 08:56:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 08:56:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:02:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:02:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:03:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:03:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:03:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:03:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:03:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:04:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:04:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:04:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:04:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:04:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:04:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 09:07:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'price' cannot be null' in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/addRestaurant.php on line 23
+[04-Dec-2017 11:41:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): RestInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:43:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): RestInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:43:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): RestInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:43:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): RestInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:43:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): RestInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:44:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:44:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:44:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:44:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:45:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:45:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(55): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 11:56:49 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 11
+[04-Dec-2017 11:56:49 UTC] PHP Stack trace:
+[04-Dec-2017 11:56:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:56:49 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 11
+[04-Dec-2017 11:56:49 UTC] PHP Stack trace:
+[04-Dec-2017 11:56:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:56:49 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 12
+[04-Dec-2017 11:56:49 UTC] PHP Stack trace:
+[04-Dec-2017 11:56:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:57:02 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 11
+[04-Dec-2017 11:57:02 UTC] PHP Stack trace:
+[04-Dec-2017 11:57:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:57:02 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 11
+[04-Dec-2017 11:57:02 UTC] PHP Stack trace:
+[04-Dec-2017 11:57:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:57:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 12
+[04-Dec-2017 11:57:02 UTC] PHP Stack trace:
+[04-Dec-2017 11:57:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:58:55 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 11
+[04-Dec-2017 11:58:55 UTC] PHP Stack trace:
+[04-Dec-2017 11:58:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:58:55 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 11
+[04-Dec-2017 11:58:55 UTC] PHP Stack trace:
+[04-Dec-2017 11:58:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:58:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 12
+[04-Dec-2017 11:58:55 UTC] PHP Stack trace:
+[04-Dec-2017 11:58:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:59:19 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 11
+[04-Dec-2017 11:59:19 UTC] PHP Stack trace:
+[04-Dec-2017 11:59:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:59:19 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 11
+[04-Dec-2017 11:59:19 UTC] PHP Stack trace:
+[04-Dec-2017 11:59:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 11:59:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 12
+[04-Dec-2017 11:59:19 UTC] PHP Stack trace:
+[04-Dec-2017 11:59:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:0
+[04-Dec-2017 12:00:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 12:02:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 12:02:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 12:04:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 12:08:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 12:08:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 12:08:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 12:08:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:20:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(57): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 19:21:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php(57): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/updateRestaurant.php on line 23
+[04-Dec-2017 19:28:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:31:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:31:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:32:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:33:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:35:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:36:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:36:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'hello' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[04-Dec-2017 19:36:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'hello' in 'where clause'' in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/tjulian/finalproject/deleteRestaurant.php on line 19
+[05-Dec-2017 08:29:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 45
+[05-Dec-2017 08:48:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 118
+[05-Dec-2017 08:48:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 118
+[05-Dec-2017 08:48:17 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php:3) in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php on line 3
+[05-Dec-2017 08:48:17 UTC] PHP Stack trace:
+[05-Dec-2017 08:48:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:48:17 UTC] PHP   2. restaurantList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:98
+[05-Dec-2017 08:49:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 38
+[05-Dec-2017 08:49:04 UTC] PHP Stack trace:
+[05-Dec-2017 08:49:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:49:04 UTC] PHP   2. waitTime() /home/ubuntu/workspace/tjulian/finalproject/admin.php:94
+[05-Dec-2017 08:49:07 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 38
+[05-Dec-2017 08:49:07 UTC] PHP Stack trace:
+[05-Dec-2017 08:49:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:49:07 UTC] PHP   2. waitTime() /home/ubuntu/workspace/tjulian/finalproject/admin.php:94
+[05-Dec-2017 08:50:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 38
+[05-Dec-2017 08:50:15 UTC] PHP Stack trace:
+[05-Dec-2017 08:50:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:50:15 UTC] PHP   2. waitTime() /home/ubuntu/workspace/tjulian/finalproject/admin.php:94
+[05-Dec-2017 08:50:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 38
+[05-Dec-2017 08:50:20 UTC] PHP Stack trace:
+[05-Dec-2017 08:50:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:50:20 UTC] PHP   2. waitTime() /home/ubuntu/workspace/tjulian/finalproject/admin.php:94
+[05-Dec-2017 08:50:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 38
+[05-Dec-2017 08:50:24 UTC] PHP Stack trace:
+[05-Dec-2017 08:50:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:50:24 UTC] PHP   2. waitTime() /home/ubuntu/workspace/tjulian/finalproject/admin.php:94
+[05-Dec-2017 08:50:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 38
+[05-Dec-2017 08:50:27 UTC] PHP Stack trace:
+[05-Dec-2017 08:50:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:50:27 UTC] PHP   2. waitTime() /home/ubuntu/workspace/tjulian/finalproject/admin.php:94
+[05-Dec-2017 08:50:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 39
+[05-Dec-2017 08:50:51 UTC] PHP Stack trace:
+[05-Dec-2017 08:50:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:50:51 UTC] PHP   2. waitTime() /home/ubuntu/workspace/tjulian/finalproject/admin.php:93
+[05-Dec-2017 08:50:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 39
+[05-Dec-2017 08:50:53 UTC] PHP Stack trace:
+[05-Dec-2017 08:50:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 08:50:53 UTC] PHP   2. waitTime() /home/ubuntu/workspace/tjulian/finalproject/admin.php:93
+[05-Dec-2017 08:58:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 120
+[05-Dec-2017 08:58:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 120
+[05-Dec-2017 08:58:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 101
+[05-Dec-2017 08:58:31 UTC] PHP Stack trace:
+[05-Dec-2017 08:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:00:12 UTC] PHP Fatal error:  Call to undefined function waitTime() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 95
+[05-Dec-2017 09:00:12 UTC] PHP Stack trace:
+[05-Dec-2017 09:00:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:00:15 UTC] PHP Fatal error:  Call to undefined function waitTime() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 95
+[05-Dec-2017 09:00:15 UTC] PHP Stack trace:
+[05-Dec-2017 09:00:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:00:42 UTC] PHP Fatal error:  Call to undefined function waitTime() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 95
+[05-Dec-2017 09:00:42 UTC] PHP Stack trace:
+[05-Dec-2017 09:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:01:02 UTC] PHP Fatal error:  Call to undefined function waitTime() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 95
+[05-Dec-2017 09:01:02 UTC] PHP Stack trace:
+[05-Dec-2017 09:01:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:01:03 UTC] PHP Fatal error:  Call to undefined function waitTime() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 95
+[05-Dec-2017 09:01:03 UTC] PHP Stack trace:
+[05-Dec-2017 09:01:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:01:04 UTC] PHP Fatal error:  Call to undefined function waitTime() in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 95
+[05-Dec-2017 09:01:04 UTC] PHP Stack trace:
+[05-Dec-2017 09:01:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:04:45 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php:3) in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php on line 3
+[05-Dec-2017 09:04:45 UTC] PHP Stack trace:
+[05-Dec-2017 09:04:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:04:45 UTC] PHP   2. restaurantList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:101
+[05-Dec-2017 09:04:47 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php:3) in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php on line 3
+[05-Dec-2017 09:04:47 UTC] PHP Stack trace:
+[05-Dec-2017 09:04:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:04:47 UTC] PHP   2. restaurantList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:101
+[05-Dec-2017 09:04:48 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php:3) in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php on line 3
+[05-Dec-2017 09:04:48 UTC] PHP Stack trace:
+[05-Dec-2017 09:04:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:04:48 UTC] PHP   2. restaurantList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:101
+[05-Dec-2017 09:04:49 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php:3) in /home/ubuntu/workspace/tjulian/finalproject/dbConnection.php on line 3
+[05-Dec-2017 09:04:49 UTC] PHP Stack trace:
+[05-Dec-2017 09:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/admin.php:0
+[05-Dec-2017 09:04:49 UTC] PHP   2. restaurantList() /home/ubuntu/workspace/tjulian/finalproject/admin.php:101
+[05-Dec-2017 09:43:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 74
+[05-Dec-2017 09:43:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 54
+[05-Dec-2017 09:44:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 151
+[05-Dec-2017 09:55:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/tjulian/finalproject/admin.php on line 152
+[05-Dec-2017 20:38:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:38:31 UTC] PHP Stack trace:
+[05-Dec-2017 20:38:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 20:58:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:58:20 UTC] PHP Stack trace:
+[05-Dec-2017 20:58:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 20:58:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:58:21 UTC] PHP Stack trace:
+[05-Dec-2017 20:58:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 20:58:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:58:21 UTC] PHP Stack trace:
+[05-Dec-2017 20:58:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 20:58:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:58:22 UTC] PHP Stack trace:
+[05-Dec-2017 20:58:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 20:58:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:58:22 UTC] PHP Stack trace:
+[05-Dec-2017 20:58:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 20:58:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:58:39 UTC] PHP Stack trace:
+[05-Dec-2017 20:58:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 20:58:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:58:39 UTC] PHP Stack trace:
+[05-Dec-2017 20:58:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 20:58:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 32
+[05-Dec-2017 20:58:39 UTC] PHP Stack trace:
+[05-Dec-2017 20:58:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php:0
+[05-Dec-2017 21:30:00 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/tjulian/finalproject/login.php on line 60
+[05-Dec-2017 21:40:24 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/ubuntu/workspace/tjulian/finalproject/loginProcess.php on line 50
+[06-Dec-2017 09:57:49 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/tjulian/finalproject/index.php on line 61

@@ -112,8 +112,7 @@
     </head>
     <body>
         <h1>Quote Finder</h1>
-        <img src="img/banner1.png" class="banner">
-    <img src="img/light.png" class="light">
+        
         <form method="get">
                 <strong>Quote Content:</strong>
                 <input type="text" name="content" value="<?=$_GET['content']?>">

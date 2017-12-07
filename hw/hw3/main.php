@@ -12,84 +12,96 @@ function displayImages(){
      $question5 = $_GET['question5'];
     
 
-if(isset($_GET['submit'])){//checks whether the form has been submitted
+if(!empty($_GET['submit'])){//checks whether the form has been submitted
 
 
 //name
 
 if(empty($_GET['username'])){
  echo "<div id=\"echo\"> Please fill in all fields</div>" ;
+ echo  ("<style>#aperson{display:none;} </style>"); 
+   echo  ("<style>#bperson{display:none;} </style>"); 
 }
 
 
 
 
 //Question1 
-if($question1== A){
+if(!empty($question1== A)){
    $personA++; 
 
 }
 
-if($question1== B){
+if(!empty($question1== B)){
    $personB++; 
 }
 if(empty($_GET['question1'])){
  echo "<div id=\"echo1\"> Please fill in all fields</div>" ;
+ echo  ("<style>#aperson{display:none;} </style>"); 
+   echo  ("<style>#bperson{display:none;} </style>"); 
  
 }
 
 
 
 //Question2
-if($question2== A){
+if(!empty($question2== A)){
    $personA++; 
 }
 
-if($question2== B){
+if(!empty($question2== B)){
    $personB++; 
 }
 if(empty($_GET['question2'])){
  echo "<div id=\"echo2\"> Please fill in all fields</div>" ;
+ echo  ("<style>#aperson{display:none;} </style>"); 
+   echo  ("<style>#bperson{display:none;} </style>"); 
   
 }
 
 
 //Question3
-if($question3== A){
+if(!empty($question3== A)){
    $personA++; 
 }
-if($question3== B){
+if(!empty($question3== B)){
    $personB++; 
 }
 if(empty($_GET['question3'])){
  echo "<div id=\"echo3\"> Please fill in all fields</div>" ;
+  echo  ("<style>#aperson{display:none;} </style>"); 
+   echo  ("<style>#bperson{display:none;} </style>"); 
 }
 
 
 //Question4
-if($question4== A){
+if(!empty($question4== A)){
    $personA++; 
 }
 
-if($question4== B){
+if(!empty($question4== B)){
    $personB++; 
 }
 if(empty($_GET['question4'])){
  echo "<div id=\"echo4\"> Please fill in all fields</div>" ;
+ echo  ("<style>#aperson{display:none;} </style>"); 
+   echo  ("<style>#bperson{display:none;} </style>"); 
 }
 
 
 //Question5
-if($question5== A){
+if(!empty($question5== A)){
    $personA++; 
 }
 
-if($question5== B){
+if(!empty($question5== B)){
    $personB++; 
 }
 
 if($question5== C){
    echo "<div id=\"echo5\"> Please fill in all fields</div>" ;
+   echo  ("<style>#aperson{display:none;} </style>"); 
+   echo  ("<style>#bperson{display:none;} </style>"); 
 }
 
 
