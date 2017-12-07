@@ -29,11 +29,10 @@ if (isset($_GET['updateForm'])) { //Admin submitted update form
     
     //echo "Update form was submitted!";
     
-    $sql = "UPDATE q_author SET 
-	            firstName = :fName,
-	            lastName = :lName,
-	            gender = :gender
-            WHERE authorId = :authorId";
+    $sql = "INSERT INTO restaurants
+            (Name, price, cuisineId, img, description)
+            VALUES 
+            (:Name, :price, :cuisineId, :img, :description)";
     
     $namedParameters = array();
     $namedParameters[':fName'] = $_GET['firstName'];

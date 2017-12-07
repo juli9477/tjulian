@@ -20,7 +20,7 @@ function getAuthorInfo() {
             WHERE restaurantsId = " . $_GET['restaurantsId'];    
      
     $stmt = $conn->prepare($sql);
-    $stmt->execute($namedParameters);
+    $stmt->execute($np);
     $record = $stmt->fetch(PDO::FETCH_ASSOC); 
     return $record;
     
@@ -30,22 +30,28 @@ if (isset($_GET['updateForm'])) { //Admin submitted update form
     
     //echo "Update form was submitted!";
     
-    $sql = "UPDATE restaurants SET 
-	            Name = :Name,
-	            price = :price,
-	            cuisineId = : cuisineId
-            WHERE restaurantsId = :restaurantsId";
     
-    $namedParameters = array();
-     $namedParameters[':restaurantsId'] = $_GET['restaurantsId'];
-    $namedParameters[':Name'] = $_GET['Name'];
-    $namedParameters[':price'] = $_GET['price'];
-    $namedParameters[': cuisineId'] = $_GET[' cuisineId'];
-    $namedParameters[':img'] = $_GET['img'];
-      $namedParameters[':description'] = $_GET['description'];
-    $stmt = $conn->prepare($sql);
-    $stmt->execute($namedParameters);
-    echo "Record was updated!";
+     $sql = "UPDATE restaurants SET 
+	            Name = :Name,
+	            cuisineId = :cuisineId,
+	             price = :price,
+	               img = :img,
+	            description=:description
+               WHERE restaurantsId = :restaurantsId";
+
+
+                    
+     $np = array();
+     $np[":Name"]  = $_GET['Name'];
+     $np[":cuisineId"]  = $_GET['cuisineId'];
+     $np[":price"]  = $_GET['price'];
+     $np[":img"]  = $_GET['img'];
+     $np[":description"]  = $_GET['description'];
+     $np[":restaurantsId"] = $_GET['restaurantsId'];
+     $stmt = $conn->prepare($sql);
+     $stmt->execute($np);
+     
+     echo "Update Added!";
 
     
 }
