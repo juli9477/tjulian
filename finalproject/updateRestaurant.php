@@ -88,7 +88,7 @@ body{
     overflow-x: hidden;
     font-family: 'Quicksand', sans-serif;
     line-height: 40px;
-    padding-bottom:20px;
+    padding-bottom:30px;
 }
 
 #container{

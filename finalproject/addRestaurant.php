@@ -22,7 +22,7 @@
      $stmt = $conn->prepare($sql);
      $stmt->execute($np);
      
-     echo "Restaurant added!";
+     echo "<div id='add'> Restaurant Added! </div>";
      
  }
 
@@ -40,13 +40,13 @@
 #banner{
     width:1750px;
     height:500px; 
-	transform: translate(-20px,-10px);
+	transform: translate(-20px,-50px);
 }
 body{
     overflow-x: hidden;
     font-family: 'Quicksand', sans-serif;
     line-height: 40px;
-    padding-bottom:20px;
+    padding-bottom:30px;
 }
 
 #container{
@@ -57,7 +57,9 @@ h1{
     padding:20px;
      margin-left:500px;
 }
-
+#add{
+   	transform: translate(600px,1250px); 
+}
 
     </style>
     <body>
