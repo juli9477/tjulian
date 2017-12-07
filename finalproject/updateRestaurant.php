@@ -51,7 +51,7 @@ if (isset($_GET['updateForm'])) { //Admin submitted update form
      $stmt = $conn->prepare($sql);
      $stmt->execute($np);
      
-     echo "Update Added!";
+     echo "<div id='add'> Update Added! </div>";
 
     
 }
@@ -82,7 +82,7 @@ if (isset($_GET['restaurantsId'])) {
 #banner{
     width:1750px;
     height:500px; 
-	transform: translate(-20px,-10px);
+	transform: translate(-20px,-50px);
 }
 body{
     overflow-x: hidden;
@@ -98,6 +98,10 @@ h1{
     font-size:50px;
     padding:20px;
      margin-left:500px;
+}
+
+#add{
+   	transform: translate(600px,1310px); 
 }
 </style>
     <body>
