@@ -1,10 +1,10 @@
 <?php
 
-function getDatabaseConnection($dbname='form') {
-    $host = 'localhost'; //cloud 9 database
-   // $dbname = 'quotes';
-    $username = 'root';
-    $password = '';
+function getDatabaseConnection() {
+    $host = 'us-cdbr-iron-east-05.cleardb.net'; //cloud 9 database
+    $dbname = 'heroku_7502e641105dd00';
+    $username = 'b1c865c444a53f';
+    $password = '12cd50e6';
     
         //when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
